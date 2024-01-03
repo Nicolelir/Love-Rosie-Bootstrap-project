@@ -60,3 +60,17 @@ header {
     margin-bottom: 90px;
     color: #fff;
 }
+
+.list-inline-item:not(:last-child){ /*copy out the inspector to override the .list-inline-item class*/
+    margin:0;
+}
+
+.menucontainer { /* to eliminate the html gap that appears in css*/
+    font-size: 0; /* now the items in the navbar are not visible, I need to add a #nav li*/
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
