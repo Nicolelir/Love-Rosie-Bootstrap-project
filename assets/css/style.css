@@ -341,3 +341,36 @@ margin:0;
     margin-bottom: 30px;
 }
 
+/* ----------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto; /*with the margin auto we center the content*/
+    max-width: 70%; 
+}
+
+button[type="submit"] {/*target a button element with a particular attribute (the attribute of type:submit*/
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* ----------------------------------------Media Queries */
+/*a little bit narrower on the desktop, for it just to be 70 percent on a mobile device. */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;/*will ocupies a nice vertical space of the screen*/
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
