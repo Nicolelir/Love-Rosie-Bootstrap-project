@@ -308,11 +308,11 @@ margin:0;
     margin: 0;
 }
 
-.timeline-item:before {/**/
-    content: attr(data-dates);
+.timeline-item:before {/*to zero in and target our data-dates attribute using our content property*/
+    content: attr(data-dates);/* content property is only with before and after pseudoclass*/
     position: absolute;
-    left: 2.5em;
-    top: 3em;
+    left: 2.5em; /*we can set a left position only because we have an absolute position*/
+    top: 3em;/*it will go above the employer text*/
     display: block;
     font-family: "Exo", sans-serif;
     font-weight: 500;
@@ -320,3 +320,20 @@ margin:0;
     padding: 0;
     margin: 0;
 }
+
+.timeline-item:after { /*circular node in the date line*/
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute; /* its absolute becouse we are working with relative parents divs*/
+    left: -6px;
+    border-radius: 12px;/*can make things a circle: set the border radius to 50%, or set it to the height and the width of the square.*/
+    content: '';/*we do not want anything else*/
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
