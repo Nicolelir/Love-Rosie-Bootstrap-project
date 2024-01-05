@@ -259,3 +259,11 @@ margin:0;
     position: relative; 
     width: 60%; /* the personal info item uses 30%*/
 }
+
+/* ----------------------------------------Skills */
+
+.progress { /*we have to override this class provided by bootstrap as a wraper*/
+    position: relative;
+    height: 25px; /* changing the height to the wraper will automatically change the height of the bar inside*/
+    margin-bottom: 4px;
+}
