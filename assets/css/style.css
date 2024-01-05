@@ -14,6 +14,14 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history{
+    background-color: #9b59b6;
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -59,7 +67,7 @@ h1,h2,h3,h4{
     padding: 0 30px 30px;
     float: none;
 }
-
+.history-heading,
 .section-heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -279,4 +287,36 @@ margin:0;
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* ----------------------------------------Work History */
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative; /*its relative becouse we will have some absolute children that we want to style inside this timeline item*/
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {/**/
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
 }
