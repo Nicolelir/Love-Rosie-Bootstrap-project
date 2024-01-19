@@ -52,9 +52,10 @@ This is the documentation for Rosie Odenkirk’s new website. It has been built 
 - [Smartmockups](https://smartmockups.com/)
    - Used to develop the wireframes in to a full mockup including colours, fonts, proportions, etc
   
+
 ## Features
 
-- **Image and Navigation Bar**
+### Image and Navigation Bar
 
 - The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, Resume and Contact page and it also permits to download Rosie's CV.
 - It allows users to easily navigate the page, featured in all 3 pages.
@@ -62,22 +63,27 @@ This is the documentation for Rosie Odenkirk’s new website. It has been built 
 
 ![Image](/assets/images/Nav%20bar.png)
 
-- **About me**
+### About me
 
 And personal Info
 
 ![Image](/assets/images/Personal%20Info%20and%20About%20me.png)
 
-- **Footer**: Featured on main pages, it includes copyright information and links to the artist's social media accounts. 
+### Footer
+
+- The footer is featured on all three pages and is identical on each page making it easy to use. It contains three seperate sections: 
+ - About - brief description of Rosie 
+ - Download - this area has the option to download Rosie's CV with a icon next to the text.
+ - Social - this area has links to social media sites, encouraging the user to keep connected. The links will open in a new tab and change of colour when the user hovers over them.
 
 ![Image](/assets/images/Footer.png)
 
 
-- **Work History and My Skills section**
+### Work History and My Skills section
 
 ![Image](/assets/images/Work%20history%20and%20my%20skills.png)
 
-- **Contact Page**
+### Contact Page
 
 ![Image](/assets/images/contact.png)
 
@@ -85,6 +91,7 @@ And personal Info
 ## Features Left to Implement
 
 Add JavaScript. 
+
 
 ## Testing
 
@@ -98,8 +105,7 @@ Add JavaScript.
      - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
      ![Alt text](/assets/images/html-validation-result-1.png)
 
-
-## Browser Compatibility
+### Browser Compatibility
 
 The site was tested on the following browsers
 
@@ -108,15 +114,17 @@ The site was tested on the following browsers
 - Mricrosoft Edge
 - Safari on MacOS 
 
+
 ## UX
 
 The site is presented in a minimalist bur effective way, provide all the information the user needs. In general, users can find out more about Rosie Odenkirk, her technical experience as a software developer, skills, a section where download her CV, how to contact her and send their project requests. 
 
 ## User stories 
 
+
 ## Deployment 
 
-**GitHub Pages**
+### GitHub Pages
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
 
@@ -128,14 +136,14 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be found [here](https://nicolelir.github.io/Love-Rosie-Bootstrap-project/) .
 
-**Forking the GitHub Repository**
+### Forking the GitHub Repository
 
 You can fork the repository by following these steps:
 
 1. Go to the GitHub repository
 2. Click on Fork button in upper right hand corner
 
-**Cloning the GitHub Repository**
+### Cloning the GitHub Repository
 
 You can clone the repository to use locally by following these steps:
 
