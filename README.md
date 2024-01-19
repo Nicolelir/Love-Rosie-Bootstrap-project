@@ -54,24 +54,32 @@ This is the documentation for Rosie Odenkirk’s new website. It has been built 
   
 ## Features
 
-- **Heading**
-- **The landing page image**
-This section introduces the user to Rosie Odenkirk, a full stack developer 
+- **Image and Navigation Bar**
+
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes links to the Homepage, Resume and Contact page and it also permits to download Rosie's CV.
+- It allows users to easily navigate the page, featured in all 3 pages.
+- There is a hover effect on the nav links with a transition of colors.
 
 ![Image](/assets/images/Nav%20bar.png)
-- **Navigation Bar**: A responsive navigation bar on main pages (Home, Resume and Contact pages) for easy website navigation.
 
 - **About me**
 
+And personal Info
+
 ![Image](/assets/images/Personal%20Info%20and%20About%20me.png)
+
 - **Footer**: Featured on main pages, it includes copyright information and links to the artist's social media accounts. 
+
 ![Image](/assets/images/Footer.png)
-- **Resume**
-- **Work History**
-- **My Skills**
-- **Contact**
-- **Contact Form**
-- **Download CV**
+
+
+- **Work History and My Skills section**
+
+![Image](/assets/images/Work%20history%20and%20my%20skills.png)
+
+- **Contact Page**
+
+![Image](/assets/images/contact.png)
 
 
 ## Features Left to Implement
