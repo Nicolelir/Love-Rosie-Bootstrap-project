@@ -1,4 +1,5 @@
-# Rosie Odenkirk
+
+# <p style="text-align: center;">Rosie Odenkirk</p>
 
 ![Image](/assets/images/Rosie%20top%20page.png)
 
@@ -10,14 +11,21 @@ This is the documentation for Rosie Odenkirk’s new website. It has been built 
 
 ## Index - Table of Content
 
-- [User Experience (UX)]()
-- [Features](#features)
-- [Design]()
+- [User Experience (UX)](#user-experience-ux)
+- [Design](#design)
 - [Technologies Used](#technologies-used)
+- [Features](#features)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Credits]()
+- [Credits](#credits)
 
+## User Experience (UX)
+
+The site is presented in a minimalist bur effective way, provide all the information the user needs. In general, users can find out more about Rosie Odenkirk, her technical experience as a software developer, skills, a section where download her CV, how to contact her and send their project requests. 
+
+### User stories 
+
+## Design
 
 ## Technologies Used
 
@@ -53,6 +61,7 @@ This is the documentation for Rosie Odenkirk’s new website. It has been built 
    - Used to develop the wireframes in to a full mockup including colours, fonts, proportions, etc
   
 
+
 ## Features
 
 ### Image and Navigation Bar
@@ -65,7 +74,8 @@ This is the documentation for Rosie Odenkirk’s new website. It has been built 
 
 ### About me
 
-And personal Info
+-	Divided in 2 sections: One section with a 1/3 of the screen for personal information about Rosie like address, phone number and email, and the second sections with 2/3 of the screen for a brief description about Rosie answering the questions: What do I do?, how do I do it? And Why hire me?.
+-	The sections are fully responsive and stack vertically with styling and layout changes on smaller screens.
 
 ![Image](/assets/images/Personal%20Info%20and%20About%20me.png)
 
@@ -81,9 +91,14 @@ And personal Info
 
 ### Work History and My Skills section
 
+-	As same as the homepage, this section is divided in 2 sections: One section with a 1/3 of the screen for Rosie’s Work History, and the second sections with 2/3 of the screen for her skills in: Front End and Back End. It also contains a progress bar with Rosie’s different levels of expertise in each programming language and framework, using a colour contrast, offering a better understanding for users. 
+-	These sections are also fully responsive and stack vertically with styling and layout changes on smaller screens.
+
 ![Image](/assets/images/Work%20history%20and%20my%20skills.png)
 
 ### Contact Page
+
+ - Allows the user to send a project request to Rosie. The user is asked to provide their name and email address when sending a message. 
 
 ![Image](/assets/images/contact.png)
 
@@ -113,13 +128,6 @@ The site was tested on the following browsers
 - Mozilla Firefox
 - Mricrosoft Edge
 - Safari on MacOS 
-
-
-## UX
-
-The site is presented in a minimalist bur effective way, provide all the information the user needs. In general, users can find out more about Rosie Odenkirk, her technical experience as a software developer, skills, a section where download her CV, how to contact her and send their project requests. 
-
-## User stories 
 
 
 ## Deployment 
