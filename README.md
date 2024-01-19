@@ -1,39 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rosie Odenkirk
+# Full Stack Developer
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![Alt text](/assets/images/Rosie%20top%20page.png)
 
-## Codeanywhere Reminders
+by **Nicole Rojas**
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Love Rosie is a page that gives a general overview about Rosie Odenkirk, a Full Stack Developer. 
+  
+## Features
 
-`python3 -m http.server`
+- **Heading**
+- **Image**
+ -  ![Alt text](image-1.png)
+- **Navigation Bar**: A responsive navigation bar on main pages (Home, Resume and Contact pages) for easy website navigation.
+- **Personal info**
+- **About me**
+- **Footer**: Featured on main pages, it includes copyright information and links to the artist's social media accounts. 
+- **Resume**
+- **Work History**
+- **My Skills**
+- **Contact**
+- **Contact Form**
+- **Download CV**
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Testing
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Validator testing
 
-`http_server`
+- HTML
+     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- CSS
+     - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/).
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## UX
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The site is presented in a minimalist bur effective way, provide all the information the user needs. In general, users can find out more about Rosie Odenkirk, her technical experience as a software developer, skills, a section where download her CV, how to contact her and send their project requests. 
 
-To log into the Heroku toolbelt CLI:
+## User stories 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Deployment 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+   - In the GitHub repository, navigate to the Settings tab
+   - From the source section drop-down menu, select the Master Branch
+   - Once de Master Branch has been selected, the page will be automatically refreshed with a detailed  ribbon display to indicate the successful deployment.
 
----
+The live link can be found [here](https://nicolelir.github.io/Love-Rosie-Bootstrap-project/).
 
-Happy coding!
+## Credits
+
+## Content
+
+## Media
+
+## Futures Left to Implement
+
