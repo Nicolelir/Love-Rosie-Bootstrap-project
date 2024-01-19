@@ -1,6 +1,6 @@
 # Rosie Odenkirk
 
-![Alt text](/assets/images/Rosie%20top%20page.png)
+![Image](/assets/images/Rosie%20top%20page.png)
 
 **by Nicole Rojas**
 
@@ -11,11 +11,11 @@ This is the documentation for Rosie Odenkirk’s new website. It has been built 
 ## Index - Table of Content
 
 - [User Experience (UX)]()
-- [Features]()
+- [Features](#features)
 - [Design]()
-- [Technologies Used]()
-- [Testing]()
-- [Deployment]()
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
 - [Credits]()
 
 
@@ -55,18 +55,28 @@ This is the documentation for Rosie Odenkirk’s new website. It has been built 
 ## Features
 
 - **Heading**
-- **Image**
- -  ![Alt text](image-1.png)
+- **The landing page image**
+This section introduces the user to Rosie Odenkirk, a full stack developer 
+
+![Image](/assets/images/Nav%20bar.png)
 - **Navigation Bar**: A responsive navigation bar on main pages (Home, Resume and Contact pages) for easy website navigation.
-- **Personal info**
+
 - **About me**
+
+![Image](/assets/images/Personal%20Info%20and%20About%20me.png)
 - **Footer**: Featured on main pages, it includes copyright information and links to the artist's social media accounts. 
+![Image](/assets/images/Footer.png)
 - **Resume**
 - **Work History**
 - **My Skills**
 - **Contact**
 - **Contact Form**
 - **Download CV**
+
+
+## Features Left to Implement
+
+Add JavaScript. 
 
 ## Testing
 
